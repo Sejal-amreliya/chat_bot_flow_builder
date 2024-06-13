@@ -1,0 +1,31 @@
+.node {
+  width: 250px;
+  background-color: white;
+  box-shadow: 2px 2px 5px 2px rgb(198, 198, 198);
+  border-radius: 8px;
+}
+
+.node .header {
+  background-color: powderblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 5px 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.node .header .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.node .data {
+  padding: 8px 10px;
+  min-height: 30px;
+  font-size: 12px;
+}

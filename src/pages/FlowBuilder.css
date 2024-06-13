@@ -1,0 +1,27 @@
+.flow-builder-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+}
+
+.flow-builder-panels {
+  flex: 1;
+  display: flex;
+  overflow: auto;
+}
+
+.flow-builder-panels .flow-panel {
+  flex: 4;
+}
+
+.flow-builder-panels .sidebar {
+  flex: 1;
+  min-width: 250px;
+}
+
+.react-flow__handle {
+  width:10px;
+  height:10px;
+  background: #242424;
+}

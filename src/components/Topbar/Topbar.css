@@ -1,0 +1,46 @@
+.topbar {
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(209, 209, 209);
+  padding: 10px 20px;
+}
+
+.topbar .alert {
+  background-color: rgba(206, 207, 207, 0.962);
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.759);
+}
+
+.topbar .warning {
+  background-color: rgba(249, 215, 141, 0.962);
+}
+
+.topbar .error {
+  background-color: rgb(251, 150, 150);
+}
+
+.topbar .success {
+  background-color: rgb(150, 251, 200);
+}
+
+.save-button {
+  padding: 10px;
+  background-color: white;
+  color: rgb(40, 82, 233);
+  border: 2px solid rgb(40, 82, 233);
+  font-weight: 600;
+}
+
+.save-button:hover {
+  box-shadow: 0px 0px 0px 2px rgba(40, 92, 233, 0.2);
+}
+
+.save-button:active {
+  box-shadow: 0px 0px 0px 3px rgba(40, 82, 233, 0.4);
+}
